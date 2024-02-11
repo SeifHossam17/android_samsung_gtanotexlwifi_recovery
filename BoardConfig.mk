@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/samsung/gtaxllte
+DEVICE_PATH := device/samsung/gtanotexlwifi
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -48,8 +48,8 @@ BOARD_MKBOOTIMG_ARGS += --kernel_offset $(BOARD_KERNEL_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := kernel
-TARGET_KERNEL_CONFIG := gtaxllte_defconfig
-TARGET_KERNEL_SOURCE := kernel/samsung/gtaxllte
+TARGET_KERNEL_CONFIG := gtanotexlwifi_defconfig
+TARGET_KERNEL_SOURCE := kernel/samsung/gtanotexlwifi
 TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_HEADER_ARCH := arm64
 
