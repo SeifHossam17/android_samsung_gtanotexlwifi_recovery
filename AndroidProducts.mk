@@ -7,3 +7,6 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/omni_gtanotexlwifi.mk
+
+COMMON_LUNCH_CHOICES := \
+    omni_gtanotexlwifi-eng
